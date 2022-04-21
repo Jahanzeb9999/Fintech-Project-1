@@ -1,3 +1,7 @@
 # Exploring Stocks performance forecast on Canadian banks
+This project is targets mainly those individuals who are thinking to invest in a particular sector(in this case, Canadian Banks). Our purpose is to help make better investment decision as of if a certain amount is to be invested in a particular sector(Canadian Banks) which stock should he/she go for.
 With a focus on Canadian banks, we have worked with the four banking giants of Canada, namely - Bank of Nova Scotia, Bank of Montreal, Toronto Dominion Bank and Royal Bank of Canada.
-In one Jupyter Notebook we cleaned the data extracted from the attached CSV files. We made a graphical representation of the closing prices
+We used Google Finance as our API. In one Jupyter Notebook we cleaned the data extracted from the attached CSV files. We made a graphical representation of the closing prices for the last 6 years. Made a projection of how the investment could be looking like in the next 5 years with the help of Monte Carlo Simulation.
+We then used another fresh Jupyter Notebook to visualize all the data so that we could visibly compare all the stock's performance to help make better investment decision.
+We also compared each of them to S&P500 and visualized the data so that our audience can see how they performed compared to S&P500.
+This project analytically concludes that depending on the individual’s risk preference they can decide to invest in BMO or RBC. This is not to say that they are the best performing stocks but given a 95% confidence interval they will yield the highest return.
